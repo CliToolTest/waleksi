@@ -1,4 +1,5 @@
 # pull_data_component.py
+import os
 from kfp.v2.dsl import component, Output, Dataset
 
 os.makedirs("components_yaml", exist_ok=True)
